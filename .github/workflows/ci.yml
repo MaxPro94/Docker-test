@@ -17,6 +17,7 @@ jobs:
     # Étape de construction de l'image Docker
     - name: Build Docker image
       run: docker build -t myapp-ci:${{ github.sha }} .
+      
 
     # Étape d'exécution des tests DANS l'image construite
     - name: Run tests inside Docker image
