@@ -1,4 +1,4 @@
-ame: CI Python Docker URL Param # Nom de la pipeline
+name: CI Python Docker URL Param # Nom de la pipeline
 
 on:
   push:
