@@ -42,7 +42,7 @@ jobs:
 
     # Étape de construction de l'image Docker Stable
     - name: Build Docker Stable image
-      run: docker build -t https://index.docker.io/v2//myapp-ci:stable .
+      run: docker build -t $DOCKER_REGISTRY_URL/myapp-ci:stable .
 
 
     # login sur le registre privé
