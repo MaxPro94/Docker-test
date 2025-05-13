@@ -15,5 +15,6 @@ COPY . .
 # Indiquer le port sur lequel l'application écoute (pour info)
 EXPOSE 5000
 
+
 # Commande pour lancer l'application Flask (mode développement)
 CMD ["flask", "--app", "app", "run", "--host=0.0.0.0", "--port=5000"]
